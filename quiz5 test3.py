@@ -1,0 +1,13 @@
+import random
+p1=["rock","paper","scissor"]
+p2=["rock","paper","scissor"]
+c1=random.choice(p1)
+c2=random.choice(p2)
+if(c1==c2):
+    print("S")
+    print(c1)
+    print(c2)
+else:
+    print("F")
+    print(c1)
+    print(c2)
